@@ -1,0 +1,21 @@
+{
+    "name": "ThiaguinhoLS/ecommerce",
+    "description": "Breve descrição do que a aplicação se propoe a fazer",
+    "authors": [
+        {
+            "name": "ThiaguinhoLS",
+            "email": "tthiaguinho638@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "phpmailer/phpmailer": "5.2.22",
+        "slim/slim": "2.0",
+        "rain/raintpl": "3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\hcode\\php-classes\\src"       
+        }
+    }
+}
